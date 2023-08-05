@@ -6,10 +6,10 @@ export const Spacing = () => {
     return (
         <>
         
-        <Padding />
+        {/* <Padding />
         <br />
         <Margin />
-        <br />
+        <br /> */}
         <SpaceBetween />
         
         </>
