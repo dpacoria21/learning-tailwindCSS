@@ -10,10 +10,24 @@ export const Flexbox = () => {
                 <div className='bg-fuchsia-500 basis-1/2 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
                 <div className='bg-fuchsia-500 basis-1/2 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
             </div>
-            <div className='flex gap-5'>
+            <div className='flex flex-row-reverse gap-5'>
                 <div className='bg-fuchsia-500 basis-1/4 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
                 <div className='bg-fuchsia-500 basis-1/4 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
                 <div className='bg-fuchsia-500 basis-2/4 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>03</div>
+            </div>
+            <div className='flex flex-col-reverse gap-5'>
+                <div className='bg-fuchsia-500 basis-1/2 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+                <div className='bg-fuchsia-500 basis-1/2 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
+            </div>
+            <div className='flex flex-wrap flex-row-reverse gap-5'>
+                <div className='bg-fuchsia-500 w-96  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+                <div className='bg-fuchsia-500 w-96  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+                <div className='bg-fuchsia-500 w-96  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+            </div>
+            <div className='flex flex-row gap-5'>
+                <div className='bg-fuchsia-500 w-48 flex-auto  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+                <div className='bg-fuchsia-500 w-96 flex-1  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
+                <div className='bg-fuchsia-500 w-24 flex-initial  h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>03</div>
             </div>
         </section>
     
