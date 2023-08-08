@@ -39,6 +39,11 @@ export const Flexbox = () => {
                 <div className='bg-fuchsia-500 shrink w-72 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
                 <div className='bg-fuchsia-500 shrink-0 w-24 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>03</div>
             </div>
+            <div className='flex gap-5 bg-slate-600 h-96 justify-center items-center'>
+                <div className='bg-fuchsia-500 shrink-0 w-24 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>01</div>
+                <div className='bg-fuchsia-500 shrink w-72 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>02</div>
+                <div className='bg-fuchsia-500 shrink-0 w-24 h-14 rounded-xl flex items-center justify-center text-gray-50 font-bold text-lg'>03</div>
+            </div>
         </section>
     
     </>

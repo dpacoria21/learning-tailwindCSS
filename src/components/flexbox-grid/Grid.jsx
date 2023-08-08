@@ -24,6 +24,52 @@ export const Grid = () => {
                 <div className='p-4 bg-sky-500 col-start-5 col-end-7'></div>
                 <div className='p-4 bg-sky-500 col-start-1 col-end-7'></div>
             </div>
+
+            <div className='grid bg-slate-300 p-4 grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4'>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+            </div>
+            <div className='grid grid-flow-col auto-cols-fr bg-slate-300 p-4  gap-4'>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+            </div>
+            <div className='grid grid-flow-row auto-cols-max bg-slate-300 p-4  gap-4'>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+            </div>
+            <div className='grid grid-flow-col auto-rows-max auto-cols-max place-content-center  h-96 bg-slate-300 p-4  gap-4'>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+                <div className='p-4 bg-cyan-600'></div>
+            </div>
+
         </section>
     
     </>
