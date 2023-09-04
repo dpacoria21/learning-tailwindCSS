@@ -6,17 +6,18 @@ export const useDarkMode = () => {
 
     const [isDark, setIsDark] = useState(false);
 
-    if(isDark) {
-        html.classList.remove('dark');
-    }else {
-        html.classList.add('dark');
-    }
-
     const changeTheme = () => {
         setIsDark(!isDark);
     }
+    
+    if(isDark) {
+        html.classList.add('dark');
+    }else {
+        html.classList.remove('dark');
+    }
 
     return {
+        isDark,
         changeTheme
     }
 }
