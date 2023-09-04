@@ -5,7 +5,7 @@ export const DarkMode = () => {
     const{isDark, changeTheme} = useDarkMode();
 
     return (
-        <section className="flex justify-center p-5">
+        <section className="flex justify-center items-center bg-slate-300 dark:bg-slate-700 h-screen p-5">
 
             <button onClick={changeTheme} className={` ${isDark ? 'rotate-0' : 'rotate-180'} relative flex justify-center items-center text-3xl dark:bg-zinc-800 dark:text-zinc-300 font-bold font-roboto text-slate-200 p-3 bg-indigo-500 rounded-full text-center w-fit transition-all duration-300`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className={`bi bi-brightness-high-fill ${isDark ? 'opacity-0' : 'opacity-100'}`} viewBox="0 0 16 16">
