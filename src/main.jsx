@@ -9,13 +9,14 @@ import { BrowserRouter } from 'react-router-dom'
 // import { ZisingApp } from './components/zisings/ZisingApp'
 // import { FlexboxGridApp } from './components/flexbox-grid/FlexboxGridApp'
 // import { CardComponent } from './components/project-01/CardComponent'
-import { DarkMode } from './components/project-02/DarkMode'
+// import { DarkMode } from './components/project-02/DarkMode'
+import { Navbar } from './components/project-03/Navbar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>
       <>
-        <DarkMode /> 
+        <Navbar /> 
       </>
     </React.StrictMode>
   </BrowserRouter>
