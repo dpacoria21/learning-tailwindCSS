@@ -10,14 +10,13 @@ import { BrowserRouter } from 'react-router-dom'
 // import { FlexboxGridApp } from './components/flexbox-grid/FlexboxGridApp'
 // import { CardComponent } from './components/project-01/CardComponent'
 // import { DarkMode } from './components/project-02/DarkMode'
-import { Navbar } from './components/project-03/Navbar'
+// import { Navbar } from './components/project-03/Navbar'
+import { App } from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>
-      <>
-        <Navbar /> 
-      </>
+        <App />
     </React.StrictMode>
   </BrowserRouter>
 )
