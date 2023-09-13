@@ -11,12 +11,13 @@ import { BrowserRouter } from 'react-router-dom'
 // import { CardComponent } from './components/project-01/CardComponent'
 // import { DarkMode } from './components/project-02/DarkMode'
 // import { Navbar } from './components/project-03/Navbar'
-import { App } from './App'
+// import { App } from './App'
+import { CardsGallery } from './components/project-04/CardsGallery'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>
-        <App />
+        <CardsGallery />
     </React.StrictMode>
   </BrowserRouter>
 )
